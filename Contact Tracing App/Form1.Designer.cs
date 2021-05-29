@@ -218,18 +218,19 @@ namespace Contact_Tracing_App
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(497, 236);
+            this.saveBtn.Location = new System.Drawing.Point(98, 224);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(142, 56);
+            this.saveBtn.Size = new System.Drawing.Size(541, 56);
             this.saveBtn.TabIndex = 20;
             this.saveBtn.Text = "Save";
             this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(651, 304);
+            this.ClientSize = new System.Drawing.Size(651, 292);
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.Countrytxtbx);

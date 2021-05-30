@@ -37,7 +37,8 @@ namespace Contact_Tracing_App
         {
             StreamWriter outputFile;
             outputFile = File.AppendText("Contact Tracing Informations.txt");
-            outputFile.WriteLine(FNLabel.Text + " " + FirstNametxtbx.Text);
+            outputFile.WriteLine("=======",
+                                            FNLabel.Text + " " + FirstNametxtbx.Text);
             outputFile.WriteLine(LNLabel.Text + " " + LastNametxtbx.Text);
             outputFile.WriteLine(AgeLabel.Text + " " + Agetxtbx.Text);
             outputFile.WriteLine(ContactLabel.Text + " " + Contacttxtbx.Text);

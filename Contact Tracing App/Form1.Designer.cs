@@ -50,6 +50,7 @@ namespace Contact_Tracing_App
             this.Countrytxtbx = new System.Windows.Forms.TextBox();
             this.saveBtn = new System.Windows.Forms.Button();
             this.labelCountry = new System.Windows.Forms.Label();
+            this.LoadInfobtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstNametxtbx
@@ -226,11 +227,22 @@ namespace Contact_Tracing_App
             this.labelCountry.TabIndex = 21;
             this.labelCountry.Text = "Country: ";
             // 
+            // LoadInfobtn
+            // 
+            this.LoadInfobtn.Location = new System.Drawing.Point(523, 223);
+            this.LoadInfobtn.Name = "LoadInfobtn";
+            this.LoadInfobtn.Size = new System.Drawing.Size(116, 57);
+            this.LoadInfobtn.TabIndex = 22;
+            this.LoadInfobtn.Text = "Load Informations";
+            this.LoadInfobtn.UseVisualStyleBackColor = true;
+            this.LoadInfobtn.Click += new System.EventHandler(this.LoadInfobtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 292);
+            this.Controls.Add(this.LoadInfobtn);
             this.Controls.Add(this.labelCountry);
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.Countrytxtbx);
@@ -283,6 +295,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox Countrytxtbx;
         private System.Windows.Forms.Button saveBtn;
         private System.Windows.Forms.Label labelCountry;
+        private System.Windows.Forms.Button LoadInfobtn;
     }
 }
 

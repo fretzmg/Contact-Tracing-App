@@ -49,5 +49,11 @@ namespace Contact_Tracing_App
             outputFile.WriteLine(labelCountry.Text + " " + Countrytxtbx.Text);
             outputFile.Close();
         }
+
+        private void LoadInfobtn_Click(object sender, EventArgs e)
+        {
+            LoadInfo LoadInfo = new LoadInfo();
+            LoadInfo.Show();
+        }
     }
 }

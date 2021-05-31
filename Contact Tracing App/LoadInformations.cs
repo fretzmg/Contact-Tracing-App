@@ -29,7 +29,7 @@ namespace Contact_Tracing_App
             inputFile = File.OpenText("Contact Tracing Informations.txt");
             while (!inputFile.EndOfStream)
             {
-                infostxtbx.Text += inputFile.ReadLine();
+                infostxtbx.Text += inputFile.ReadLine() + "\r\n";
             }
 
         }

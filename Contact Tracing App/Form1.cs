@@ -53,10 +53,10 @@ namespace Contact_Tracing_App
 
         private void LoadInfobtn_Click(object sender, EventArgs e)
         {
-            //LoadInfo LoadInfo = new LoadInfo();
-            //LoadInfo.Show();
+            LoadInfo LoadInfo = new LoadInfo();
+            LoadInfo.Show();
 
-            Process.Start("notepad.exe", "Contact Tracing Informations.txt");
+            //Process.Start("notepad.exe", "Contact Tracing Informations.txt");
         }
     }
 }

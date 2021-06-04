@@ -59,6 +59,7 @@ namespace Contact_Tracing_App
             this.FirstNametxtbx.Name = "FirstNametxtbx";
             this.FirstNametxtbx.Size = new System.Drawing.Size(176, 27);
             this.FirstNametxtbx.TabIndex = 0;
+            this.FirstNametxtbx.TextChanged += new System.EventHandler(this.FirstNametxtbx_TextChanged);
             // 
             // FNLabel
             // 

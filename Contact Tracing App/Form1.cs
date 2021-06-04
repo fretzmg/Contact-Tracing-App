@@ -37,7 +37,7 @@ namespace Contact_Tracing_App
         private void saveBtn_Click(object sender, EventArgs e)
         {
             StreamWriter outputFile;
-            outputFile = File.AppendText("Contact Tracing Informations.txt");
+            outputFile = File.AppendText("Informations from Contact Tracing App.txt");
             outputFile.WriteLine("=======",
                                             FNLabel.Text + " " + FirstNametxtbx.Text);
             outputFile.WriteLine(LNLabel.Text + " " + LastNametxtbx.Text);
@@ -57,6 +57,11 @@ namespace Contact_Tracing_App
             LoadInfo.Show();
 
             //Process.Start("notepad.exe", "Contact Tracing Informations.txt");
+        }
+
+        private void FirstNametxtbx_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

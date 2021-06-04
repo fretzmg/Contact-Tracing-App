@@ -26,7 +26,7 @@ namespace Contact_Tracing_App
         private void button1_Click(object sender, EventArgs e)
         {
             StreamReader inputFile;
-            inputFile = File.OpenText("Contact Tracing Informations.txt");
+            inputFile = File.OpenText("Informations from Contact Tracing App.txt");
             while (!inputFile.EndOfStream)
             {
                 infostxtbx.Text += inputFile.ReadLine() + "\r\n";

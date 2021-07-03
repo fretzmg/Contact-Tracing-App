@@ -262,7 +262,11 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.LastNametxtbx);
             this.Controls.Add(this.FNLabel);
             this.Controls.Add(this.FirstNametxtbx);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact Tracing Form";
             this.ResumeLayout(false);
             this.PerformLayout();

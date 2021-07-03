@@ -61,7 +61,7 @@ namespace Contact_Tracing_App
             this.Loadbtn.TabIndex = 2;
             this.Loadbtn.Text = "Load";
             this.Loadbtn.UseVisualStyleBackColor = true;
-            this.Loadbtn.Click += new System.EventHandler(this.button1_Click);
+            this.Loadbtn.Click += new System.EventHandler(this.btnLoad_Click);
             // 
             // LoadInfo
             // 

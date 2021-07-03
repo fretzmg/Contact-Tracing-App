@@ -18,10 +18,6 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
         private void saveBtn_Click(object sender, EventArgs e)
         {
             StreamWriter outputFile;

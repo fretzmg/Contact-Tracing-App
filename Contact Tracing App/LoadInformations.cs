@@ -17,7 +17,7 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLoad_Click(object sender, EventArgs e)
         {
             StreamReader inputFile;
             inputFile = File.OpenText("Informations from Contact Tracing App.txt");

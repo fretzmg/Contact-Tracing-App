@@ -59,7 +59,6 @@ namespace Contact_Tracing_App
             this.FirstNametxtbx.Name = "FirstNametxtbx";
             this.FirstNametxtbx.Size = new System.Drawing.Size(176, 27);
             this.FirstNametxtbx.TabIndex = 0;
-            this.FirstNametxtbx.TextChanged += new System.EventHandler(this.FirstNametxtbx_TextChanged);
             // 
             // FNLabel
             // 
@@ -69,7 +68,6 @@ namespace Contact_Tracing_App
             this.FNLabel.Size = new System.Drawing.Size(83, 20);
             this.FNLabel.TabIndex = 1;
             this.FNLabel.Text = "First Name:";
-            this.FNLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // LNLabel
             // 
@@ -127,7 +125,6 @@ namespace Contact_Tracing_App
             this.EmailLabel.Size = new System.Drawing.Size(49, 20);
             this.EmailLabel.TabIndex = 9;
             this.EmailLabel.Text = "Email:";
-            this.EmailLabel.Click += new System.EventHandler(this.label5_Click);
             // 
             // Emailtxtbx
             // 

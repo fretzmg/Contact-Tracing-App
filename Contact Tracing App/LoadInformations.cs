@@ -17,12 +17,6 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
-
-        private void infostxtbx_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             StreamReader inputFile;
@@ -31,13 +25,10 @@ namespace Contact_Tracing_App
             {
                 infostxtbx.Text += inputFile.ReadLine() + "\r\n";
             }
-
         }
-
         private void exitbtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
     }
-
 }

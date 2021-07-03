@@ -42,7 +42,6 @@ namespace Contact_Tracing_App
             this.infostxtbx.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.infostxtbx.Size = new System.Drawing.Size(619, 294);
             this.infostxtbx.TabIndex = 0;
-            this.infostxtbx.TextChanged += new System.EventHandler(this.infostxtbx_TextChanged);
             // 
             // exitbtn
             // 

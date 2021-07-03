@@ -18,22 +18,10 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void saveBtn_Click(object sender, EventArgs e)
         {
             StreamWriter outputFile;
@@ -50,18 +38,10 @@ namespace Contact_Tracing_App
             outputFile.WriteLine(labelCountry.Text + " " + Countrytxtbx.Text);
             outputFile.Close();
         }
-
         private void LoadInfobtn_Click(object sender, EventArgs e)
         {
             LoadInfo LoadInfo = new LoadInfo();
-            LoadInfo.Show();
-
-            //Process.Start("notepad.exe", "Contact Tracing Informations.txt");
-        }
-
-        private void FirstNametxtbx_TextChanged(object sender, EventArgs e)
-        {
-
+            LoadInfo.Show(); 
         }
     }
 }

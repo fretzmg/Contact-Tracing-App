@@ -71,7 +71,11 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.Loadbtn);
             this.Controls.Add(this.exitbtn);
             this.Controls.Add(this.infostxtbx);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "LoadInfo";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact Tracing Informations";
             this.ResumeLayout(false);
             this.PerformLayout();

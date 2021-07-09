@@ -26,6 +26,7 @@ namespace Contact_Tracing_App
                 infostxtbx.Text += inputFile.ReadLine() + "\r\n";
             }
         }
+
         private void exitbtn_Click(object sender, EventArgs e)
         {
             this.Close();

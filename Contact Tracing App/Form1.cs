@@ -18,6 +18,7 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
+
         private void saveBtn_Click(object sender, EventArgs e)
         {
             StreamWriter outputFile;
@@ -31,9 +32,10 @@ namespace Contact_Tracing_App
             outputFile.WriteLine(SALabel.Text + " " + Streettxtbx.Text);
             outputFile.WriteLine(CityLabel.Text + " " + Citytxtbx.Text);
             outputFile.WriteLine(ProvinceLabel.Text + " " + Provincetxtbx.Text);
-            outputFile.WriteLine(labelCountry.Text + " " + Countrytxtbx.Text);
+            outputFile.WriteLine(CountryLabel.Text + " " + Countrytxtbx.Text);
             outputFile.Close();
         }
+
         private void LoadInfobtn_Click(object sender, EventArgs e)
         {
             LoadInfo LoadInfo = new LoadInfo();

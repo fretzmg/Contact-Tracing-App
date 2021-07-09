@@ -39,8 +39,6 @@ namespace Contact_Tracing_App
             this.Contacttxtbx = new System.Windows.Forms.TextBox();
             this.EmailLabel = new System.Windows.Forms.Label();
             this.Emailtxtbx = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.SALabel = new System.Windows.Forms.Label();
             this.Streettxtbx = new System.Windows.Forms.TextBox();
             this.CityLabel = new System.Windows.Forms.Label();
@@ -49,8 +47,10 @@ namespace Contact_Tracing_App
             this.Provincetxtbx = new System.Windows.Forms.TextBox();
             this.Countrytxtbx = new System.Windows.Forms.TextBox();
             this.saveBtn = new System.Windows.Forms.Button();
-            this.labelCountry = new System.Windows.Forms.Label();
             this.LoadInfobtn = new System.Windows.Forms.Button();
+            this.PIlabel = new System.Windows.Forms.Label();
+            this.Addresslbl = new System.Windows.Forms.Label();
+            this.CountryLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // FirstNametxtbx
@@ -133,24 +133,6 @@ namespace Contact_Tracing_App
             this.Emailtxtbx.Size = new System.Drawing.Size(176, 27);
             this.Emailtxtbx.TabIndex = 8;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 20);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Personal Information";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(314, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 20);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Address";
-            // 
             // SALabel
             // 
             this.SALabel.AutoSize = true;
@@ -216,15 +198,6 @@ namespace Contact_Tracing_App
             this.saveBtn.UseVisualStyleBackColor = true;
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
-            // labelCountry
-            // 
-            this.labelCountry.AutoSize = true;
-            this.labelCountry.Location = new System.Drawing.Point(315, 149);
-            this.labelCountry.Name = "labelCountry";
-            this.labelCountry.Size = new System.Drawing.Size(67, 20);
-            this.labelCountry.TabIndex = 21;
-            this.labelCountry.Text = "Country: ";
-            // 
             // LoadInfobtn
             // 
             this.LoadInfobtn.Location = new System.Drawing.Point(523, 223);
@@ -235,13 +208,42 @@ namespace Contact_Tracing_App
             this.LoadInfobtn.UseVisualStyleBackColor = true;
             this.LoadInfobtn.Click += new System.EventHandler(this.LoadInfobtn_Click);
             // 
+            // PIlabel
+            // 
+            this.PIlabel.AutoSize = true;
+            this.PIlabel.Location = new System.Drawing.Point(12, 9);
+            this.PIlabel.Name = "PIlabel";
+            this.PIlabel.Size = new System.Drawing.Size(146, 20);
+            this.PIlabel.TabIndex = 23;
+            this.PIlabel.Text = "Personal Information";
+            // 
+            // Addresslbl
+            // 
+            this.Addresslbl.AutoSize = true;
+            this.Addresslbl.Location = new System.Drawing.Point(314, 9);
+            this.Addresslbl.Name = "Addresslbl";
+            this.Addresslbl.Size = new System.Drawing.Size(62, 20);
+            this.Addresslbl.TabIndex = 24;
+            this.Addresslbl.Text = "Address";
+            // 
+            // CountryLabel
+            // 
+            this.CountryLabel.AutoSize = true;
+            this.CountryLabel.Location = new System.Drawing.Point(314, 153);
+            this.CountryLabel.Name = "CountryLabel";
+            this.CountryLabel.Size = new System.Drawing.Size(67, 20);
+            this.CountryLabel.TabIndex = 25;
+            this.CountryLabel.Text = "Country: ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 292);
+            this.Controls.Add(this.CountryLabel);
+            this.Controls.Add(this.Addresslbl);
+            this.Controls.Add(this.PIlabel);
             this.Controls.Add(this.LoadInfobtn);
-            this.Controls.Add(this.labelCountry);
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.Countrytxtbx);
             this.Controls.Add(this.ProvinceLabel);
@@ -250,8 +252,6 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.Citytxtbx);
             this.Controls.Add(this.SALabel);
             this.Controls.Add(this.Streettxtbx);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.EmailLabel);
             this.Controls.Add(this.Emailtxtbx);
             this.Controls.Add(this.ContactLabel);
@@ -285,8 +285,6 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox Contacttxtbx;
         private System.Windows.Forms.Label EmailLabel;
         private System.Windows.Forms.TextBox Emailtxtbx;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label SALabel;
         private System.Windows.Forms.TextBox Streettxtbx;
         private System.Windows.Forms.Label CityLabel;
@@ -296,8 +294,10 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label Country;
         private System.Windows.Forms.TextBox Countrytxtbx;
         private System.Windows.Forms.Button saveBtn;
-        private System.Windows.Forms.Label labelCountry;
         private System.Windows.Forms.Button LoadInfobtn;
+        private System.Windows.Forms.Label PIlabel;
+        private System.Windows.Forms.Label Addresslbl;
+        private System.Windows.Forms.Label CountryLabel;
     }
 }
 
